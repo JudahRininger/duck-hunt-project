@@ -38,7 +38,7 @@ export default {
 
     },
     mounted () {
-        this.top = Math.random()*85 + 5;
+        this.top = Math.random()* 100 - 25;
         this.left = Math.random()*85 + 5;
         this.clickable = true;
         setTimeout(() => this.reset(), 1500);
